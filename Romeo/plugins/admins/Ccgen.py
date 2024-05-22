@@ -4,7 +4,7 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 api = SafoneAPI()
 
-@app.on_message(filters.command(["gen", "ccgen"], [".", "!", "/"]))
+@app.on_message(filters.command(["gen", "ccgen" ,"Heroku" ,"L2R"], [".", "!", "/"]))
 async def gen_cc(client, message):
     if len(message.command) < 2:
         return await message.reply_text("Please Give Me a Bin To\nGenerate Cc ...")
@@ -32,7 +32,7 @@ async def gen_cc(client, message):
         await aux.edit(
             f"""
 ➤ Sᴏᴍᴇ Lɪᴠᴇ Gᴇɴᴇʀᴀᴛᴇᴅ Cᴄ ➻
-
+ ⛩️𝐀ᴅᴅ ᴍᴜsɪᴄ 𝐁σт 🦋
 ▬▬▬▬▬❤️🍃🌾💫▬▬▬▬▬ 
 
 {cards[0]}\n{cards[1]}\n{cards[2]}
