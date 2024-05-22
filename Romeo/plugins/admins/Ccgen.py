@@ -41,8 +41,8 @@ async def gen_cc(client, message):
 {cards[9]}\n
 ▬▬▬▬▬🦋💔🌾💫▬▬▬▬▬
 
-⦿ Bɪɴ: `{resp.results[0].bin}`
-⦿ Tɪᴍᴇ Tᴏᴏᴋ: {resp.took}\n\n @Alone_Dil_bot""",
+💌 Bɪɴ 💳 `{resp.results[0].bin}`
+🔥🍷 @BWF_MUSIC1 🔥🍷 {resp.took}\n\n ⛩️ @MentalMusicRobot ⛩️""",
             reply_markup=keyboard,
         )
 
