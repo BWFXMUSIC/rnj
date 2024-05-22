@@ -13,25 +13,25 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     Romeo = math.floor(percentage)
     if 0 < Romeo <= 10:
-        bar = "NJ▇▇▇▇▇▇▇▇▇"
+        bar = "•▁▄▂▇▄▅▄▅▃•"
     elif 10 < Romeo < 20:
-        bar = "▇NJ▇▇▇▇▇▇▇▇"
+        bar = "•▁▃▇▂▅▇▄▅▃•"
     elif 20 <= Romeo < 30:
-        bar = "▇▇NJ▇▇▇▇▇▇▇"
+        bar = "•▃▁▇▂▅▃▄▃▅•"
     elif 30 <= Romeo < 40:
-        bar = "▇▇▇NJ▇▇▇▇▇▇"
+        bar = "•▃▄▂▄▇▅▃▅▁•"
     elif 40 <= Romeo < 50:
-        bar = "▇▇▇▇NJ▇▇▇▇▇"
+        bar = "•▁▃▄▂▇▃▄▅▃•"
     elif 50 <= Romeo < 60:
-        bar = "▇▇▇▇▇NJ▇▇▇▇"
+        bar = "•▃▁▄▂▅▃▇▃▅•"
     elif 60 <= Romeo < 70:
-        bar = "▇▇▇▇▇▇NJ▇▇▇"
+        bar = "•▁▇▄▂▅▄▅▃▄•"
     elif 70 <= Romeo < 80:
-        bar = "▇▇▇▇▇▇▇NJ▇▇"
+        bar = "•▁▃▅▇▂▅▄▃▇•"
     elif 80 <= Romeo < 95:
-        bar = "▇▇▇▇▇▇▇▇NJ▇"
+        bar = "•▅▄▇▂▅▂▄▇▁•"
     else:
-        bar = "▇▇▇▇▇▇▇▇▇NJ"
+        bar = "•▃▅▂▅▃▇▄▅▃•"
 
     buttons = [
         [
@@ -42,32 +42,19 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="▷",
-                callback_data=f"ADMIN Pause|{chat_id}",
-            ),
-            InlineKeyboardButton(
-                text="II", callback_data=f"ADMIN Resume|{chat_id}"
-            ),
-            InlineKeyboardButton(
-                text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"
-            ),
-            InlineKeyboardButton(
-                text="▢", callback_data=f"ADMIN Stop|{chat_id}"
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text="𝐀𝐝𝐝 𝐩𝐥𝐚𝐲𝐥𝐢𝐬𝐭",
+                text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="📝 𝐒𝐮𝐩𝐩𝐨𝐫𝐭", url=f"{config.SUPPORT_GROUP}"
-            )
+                text="✨ 𝐎ωиєя ⏎", url=f"https://t.me/L2R_KING"
+            ),
         ],
         [
             InlineKeyboardButton(
-                text="❌ 𝐂𝐥𝐨𝐬𝐞 ❌", callback_data="close"
-            )
+                text=_["PL_B_3"],
+                callback_data=f"PanelMarkup None|{chat_id}",
+            ),
+            InlineKeyboardButton(text="⛩️ Gʀᴏᴜᴘꨄ︎ ⛩️", url=f"https://t.me/BWF_MUSIC1"),
         ],
     ]
     return buttons
@@ -79,25 +66,25 @@ def telegram_markup_timer(_, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     Romeo = math.floor(percentage)
     if 0 < Romeo <= 10:
-        bar = "NJ▇▇▇▇▇▇▇▇▇"
+        bar = "▇▇▇▇▇▇▇▇▇"
     elif 10 < Romeo < 20:
-        bar = "▇NJ▇▇▇▇▇▇▇▇"
+        bar = "▇▇▇▇▇▇▇▇▇"
     elif 20 <= Romeo < 30:
-        bar = "▇▇NJ▇▇▇▇▇▇▇"
+        bar = "▇▇▇▇▇▇▇▇▇"
     elif 30 <= Romeo < 40:
-        bar = "▇▇▇NJ▇▇▇▇▇▇"
+        bar = "▇▇▇▇▇▇▇▇▇"
     elif 40 <= Romeo < 50:
-        bar = "▇▇▇▇NJ▇▇▇▇▇"
+        bar = "▇▇▇▇▇▇▇▇▇"
     elif 50 <= Romeo < 60:
-        bar = "▇▇▇▇▇NJ▇▇▇▇"
+        bar = "▇▇▇▇▇▇▇▇▇"
     elif 60 <= Romeo < 70:
-        bar = "▇▇▇▇▇▇NJ▇▇▇"
+        bar = "▇▇▇▇▇▇▇▇▇"
     elif 70 <= Romeo < 80:
-        bar = "▇▇▇▇▇▇▇NJ▇▇"
+        bar = "▇▇▇▇▇▇▇▇▇"
     elif 80 <= Romeo < 95:
-        bar = "▇▇▇▇▇▇▇▇NJ▇"
+        bar = "▇▇▇▇▇▇▇▇▇"
     else:
-        bar = "▇▇▇▇▇▇▇▇▇NJ"
+        bar = "▇▇▇▇▇▇▇▇▇"
 
     buttons = [
         [
@@ -108,32 +95,19 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="▷",
-                callback_data=f"ADMIN Pause|{chat_id}",
-            ),
-            InlineKeyboardButton(
-                text="II", callback_data=f"ADMIN Resume|{chat_id}"
-            ),
-            InlineKeyboardButton(
-                text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"
-            ),
-            InlineKeyboardButton(
-                text="▢", callback_data=f"ADMIN Stop|{chat_id}"
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text="𝐀𝐝𝐝 𝐩𝐥𝐚𝐲𝐥𝐢𝐬𝐭",
+                text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="📝 𝐒𝐮𝐩𝐩𝐨𝐫𝐭", url=f"{config.SUPPORT_GROUP}"
-            )
+                text="✨ 𝐎ωиєя ⏎", url=f"https://t.me/L2R_KING"
+            ),
         ],
         [
             InlineKeyboardButton(
-                text="❌ 𝐂𝐥𝐨𝐬𝐞 ❌", callback_data="close"
-            )
+                text=_["PL_B_3"],
+                callback_data=f"PanelMarkup None|{chat_id}",
+            ),
+            InlineKeyboardButton(text="⛩️ Gʀᴏᴜᴘꨄ︎ ⛩️", url=f"https://t.me/BWF_MUSIC1"),
         ],
     ]
     return buttons
@@ -143,32 +117,34 @@ def stream_markup(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="▷",
+                text="",
                 callback_data=f"ADMIN Pause|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="II", callback_data=f"ADMIN Resume|{chat_id}"
+                text="", callback_data=f"ADMIN Resume|{chat_id}"
             ),
             InlineKeyboardButton(
-                text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"
+                text="", callback_data=f"ADMIN Skip|{chat_id}"
             ),
             InlineKeyboardButton(
-                text="▢", callback_data=f"ADMIN Stop|{chat_id}"
+                text="", callback_data=f"ADMIN Stop|{chat_id}"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="𝐀𝐝𝐝 𝐩𝐥𝐚𝐲𝐥𝐢𝐬𝐭",
+                text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="📝 𝐒𝐮𝐩𝐩𝐨𝐫𝐭", url=f"{config.SUPPORT_GROUP}"
-            )
+                text="✨ 𝐎ωиєя ⏎", url=f"https://t.me/L2R_KING"
+            ),
         ],
         [
             InlineKeyboardButton(
-                text="❌ 𝐂𝐥𝐨𝐬𝐞 ❌", callback_data="close"
-            )
+                text=_["PL_B_3"],
+                callback_data=f"PanelMarkup None|{chat_id}",
+            ),
+            InlineKeyboardButton(text="⛩️ Gʀᴏᴜᴘꨄ︎ ⛩️", url=f"https://t.me/BWF_MUSIC1"),
         ],
     ]
     return buttons
@@ -193,11 +169,11 @@ def telegram_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="𝐀𝐝𝐝 𝐩𝐥𝐚𝐲𝐥𝐢𝐬𝐭",
+                text="",
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="📝 𝐒𝐮𝐩𝐩𝐨𝐫𝐭", url=f"{config.SUPPORT_GROUP}"
+                text="", url=f"{config.SUPPORT_GROUP}"
             )
         ],
         [
@@ -354,11 +330,11 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="𝐀𝐝𝐝 𝐩𝐥𝐚𝐲𝐥𝐢𝐬𝐭",
+                text="",
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="📝 𝐒𝐮𝐩𝐩𝐨𝐫𝐭", url=f"{config.SUPPORT_GROUP}"
+                text="", url=f"{config.SUPPORT_GROUP}"
             )
         ],
         [
@@ -389,11 +365,11 @@ def telegram_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="𝐀𝐝𝐝 𝐩𝐥𝐚𝐲𝐥𝐢𝐬𝐭",
+                text="",
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="📝 𝐒𝐮𝐩𝐩𝐨𝐫𝐭", url=f"{config.SUPPORT_GROUP}"
+                text="", url=f"{config.SUPPORT_GROUP}"
             )
         ],
         [
