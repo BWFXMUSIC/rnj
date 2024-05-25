@@ -4,7 +4,7 @@ from Romeo import app
 from pyrogram import filters
 from pyrogram.types import InputMediaPhoto
 
-@app.on_message(filters.command(["image", "img"], prefixes=["/", "!", "%", ",", "", ".", "@", "#"]))
+@app.on_message(filters.command(["L2Rimage", "BWFimg" ,"L2RKING" ,"BWF"], prefixes=["/", "!", "%", ",", "", ".", "@", "#"]))
 async def pinterest(_, message):
      chat_id = message.chat.id
 
@@ -19,11 +19,11 @@ async def pinterest(_, message):
      count = 0
 
      msg = await message.reply(f"sᴄʀᴀᴘɪɴɢ ɪᴍᴀɢᴇs ғʀᴏᴍ ᴘɪɴᴛᴇʀᴇᴛs...")
-     for url in images["images"][:6]:
+     for url in images["images"][:8]:
                   
           media_group.append(InputMediaPhoto(media=url))
           count += 1
-          await msg.edit(f"=> Bɢᴛ sᴄʀᴀᴘᴇᴅ ɪᴍᴀɢᴇs {count}")
+          await msg.edit(f"💌ʙω͠ғ™ ɪᴍᴀɢᴇs🦋 {count}")
 
      try:
         
@@ -35,4 +35,4 @@ async def pinterest(_, message):
 
      except Exception as e:
            await msg.delete()
-           return await message.reply(f"ᴇʀʀᴏʀ : {e}")
+           return await message.reply(f"💌ʙω͠ғ™ ᴇʀʀᴏʀ🦋 : {e}")
