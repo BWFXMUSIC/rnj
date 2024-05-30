@@ -1,26 +1,22 @@
-### 🥀 𝐁𝐞𝐬𝐭 𝐀𝐝𝐯𝐚𝐧𝐜𝐞𝐝 𝐒𝐮𝐩𝐬𝐫𝐟𝐚𝐬𝐭 𝐚𝐧𝐝 𝐒𝐦𝐚𝐫𝐭 𝐕𝐂 𝐌𝐮𝐬𝐢𝐜 𝐏𝐥𝐚𝐲𝐞𝐫 𝐁𝐨𝐭 𝐒𝐨𝐮𝐫𝐜𝐞 𝐅𝐨𝐫 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐆𝐫𝐨𝐮𝐩𝐬 𝐚𝐧𝐝 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ✨...
+<h2 align="center">
+    ─「 𝗩𝗜𝗣 𝗠𝗨𝗦𝗜𝗖 」─
 
-<p align="center"><a href="https://t.me/RomeoBot_OP"><img src="https://telegra.ph/file/e745fdaf1966f228582dc.jpg"></a></p>
-
-##  Deploy to Heroku  🤝
-
-- First give start then
-- Fork the repo then 
-- Tap below botton ☟︎︎︎☟︎︎︎☟︎︎︎ for deploy Romeo-musicBot 
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](http://dashboard.heroku.com/new?template=https://github.com/123njjakhar/rnj)
+★ 𝙷𝙴𝚁𝙾𝙺𝚄 + 𝚅𝙿𝚂 ★
+</h2>
+<img src="https://readme-typing-svg.herokuapp.com?color=FF0000&width=420&lines=♦𝙳𝙴𝙿𝙻𝙾𝚈+𝙾𝙽+𝙷𝙴𝚁𝙾𝙺𝚄♦;♨️+𝙽𝙾+𝙷𝙴𝚁𝙾𝙺𝚄+𝙱𝙰𝙽+𝙸𝚂𝚂𝚄𝙴+𝙰𝙻𝚂𝙾+𝚅𝙿𝚂+𝙳𝙴𝙿𝙻𝙾𝚈+📍+𝙿𝚁𝙴𝚂𝙴𝙽𝚃;🎭+𝙿𝙾𝚆𝙴𝚁𝙳+𝙱𝚈+𝐓𝐇𝐄+𝐕𝐈𝐏+𝐁𝐎𝐘+🎭">
 
 
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"> 
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-### 🥀 𝐃𝐞𝐩𝐥𝐨𝐲 𝐎𝐧 𝐆𝐢𝐭𝐇𝐮𝐛 𝐒𝐞𝐫𝐯𝐞𝐫 (𝐇𝐚𝐜𝐤𝐞𝐫-𝐑𝐉) 💞...
+![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=THE-VIP-BOY-OP&repo=VIP-MUSIC&theme=flag-india)
 
-[𓊈𝐃𝐞𝐩𝐥𝐨𝐲 𝐎𝐧 𝐆𝐢𝐭𝐇𝐮𝐛𓊉](https://github.com/Romeo-RJ/Hacker-RJ/fork)
-
-
-
+[![GIF](https://github.com/THE-VIP-BOY-OP/VIP-MUSIC/blob/main/THE-VIP-BOY-OP.gif)](https://github.com/THE-VIP-BOY-OP)
+   [![VIP BOY](https://github-stats-alpha.vercel.app/api?username=THE-VIP-BOY-OP "THE_VIP_BOY")](https://github-stats-alpha.vercel.app/api?username=THE-VIP-BOY-OP "THE_VIP_BOY")
 
 
-### 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐞 𝐘𝐨𝐮𝐫 𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦 𝐒𝐭𝐫𝐢𝐧𝐠 𝐒𝐞𝐬𝐬𝐢𝐨𝐧 𝐅𝐫𝐨𝐦 𝐇𝐞𝐫𝐞
+<p align="center">
+  <img src="https://te.legra.ph/file/7b51adb8645bb87510996.jpg">
+</p>
 
-[𓊈 𝐒𝐭𝐫𝐢𝐧𝐠  𝐒𝐞𝐬𝐬𝐢𝐨𝐧 𓊉](https://t.me/Rjssgbot)
-
+**𝙏𝙀𝙎𝙏 𝘽𝙊𝙏 ➣ [𝄟ॐ❥𝗧𝗚🍷𝗩𝗖🌷𝗕𝗢𝗧❥𝄟⃟🥀](https://t.me/TG_VC_BOT)**
